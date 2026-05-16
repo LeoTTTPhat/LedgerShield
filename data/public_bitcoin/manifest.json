@@ -1,0 +1,19 @@
+{
+  "api_base": "https://blockstream.info/api",
+  "block_hash": "0000000000000000000047f625ff1d1b0f72790e73937fcaeaf7ba819a13368a",
+  "block_height": 949375,
+  "block_timestamp": 1778769545,
+  "block_tx_count": 4379,
+  "events_path": "data/public_bitcoin/events.jsonl",
+  "events_written": 1000,
+  "schema": {
+    "account_id": "first output address when present, otherwise NOADDR-<txid prefix>",
+    "amount": "sum of transaction outputs in BTC",
+    "currency": "BTC",
+    "event_id": "1-based transaction index within fetched subset",
+    "event_type": "BITCOIN_TX",
+    "reference": "Bitcoin transaction id",
+    "timestamp": "Bitcoin block timestamp"
+  },
+  "source": "Blockstream Esplora public Bitcoin API"
+}
