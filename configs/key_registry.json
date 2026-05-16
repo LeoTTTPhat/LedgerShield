@@ -1,0 +1,7 @@
+{
+  "active_key_id": "k1",
+  "keys": {
+    "k1": "configs/keys/k1_public.pem"
+  },
+  "revoked_keys": []
+}
